@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "YouTuber",
+    "youtuber/human",
   summary:
     `I talk about stuff and call it a documentary. My videos dive into unexpected corners of everyday life, exploring ideas from technology and philosophy to creativity and culture.
 
