@@ -2,25 +2,29 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Charan Ravi",
-  initials: "CR",
+  name: "CHARAN",
+  initials: "C",
   url: "https://charanravi.com",
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "software developer",
+    "YouTuber",
   summary:
-    "I'm into blockchian, automation, backend, music composition, running, yoga and meditation. I know, way too many hobbies, but I love them all.",
+    `I talk about stuff and call it a documentary. My videos dive into unexpected corners of everyday life, exploring ideas from technology and philosophy to creativity and culture.
+
+Each episode is a mini-documentary where I share my thoughts, experiments, and the stories of people I meet along the way. The channel is a place for curiosity, long-form conversations, and occasional absurdity — basically, a space where I can learn out loud and bring others along for the ride.`,
   avatarUrl: "/me.png",
   skills: [
-    "Python",
-    "Selenium",
-    "Appium",
-    "Jenkins",
-    "Docker",
-    "Next.js",
-    "Javascript",
-    "Node.js",
+    "Philosphy",
+    ""
+    // "Python",
+    // "Selenium",
+    // "Appium",
+    // "Jenkins",
+    // "Docker",
+    // "Next.js",
+    // "Javascript",
+    // "Node.js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -30,39 +34,39 @@ export const DATA = {
     email: "contact@charanravi.com",
     // tel: "+123456789",
     social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://github.com/charanravi-online",
-        icon: Icons.github,
+      // GitHub: {
+      //   name: "GitHub",
+      //   url: "https://github.com/charanravi-online",
+      //   icon: Icons.github,
 
-        navbar: true,
-      },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/charan-ravi",
-        icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://x.com/charanjson",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
       //   navbar: true,
       // },
+      // LinkedIn: {
+      //   name: "LinkedIn",
+      //   url: "https://www.linkedin.com/in/charan-ravi",
+      //   icon: Icons.linkedin,
+
+      //   navbar: true,
+      // },
+      // X: {
+      //   name: "X",
+      //   url: "https://x.com/charanjson",
+      //   icon: Icons.x,
+
+      //   navbar: true,
+      // },
+      Youtube: {
+        name: "Youtube",
+        url: "https://www.youtube.com/@charanpov",
+        icon: Icons.youtube,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:contact@charanravi.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
