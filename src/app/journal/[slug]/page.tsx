@@ -1,4 +1,4 @@
-import { getBlogPosts, getPost } from "@/data/blog";
+import { getJournalPosts, getPost } from "@/data/journal";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 export async function generateStaticParams() {
-  const posts = await getBlogPosts();
+  const posts = await getJournalPosts();
   return posts.map((post) => ({ slug: post.slug }));
 }
 
@@ -35,7 +35,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `${DATA.url}/blog/${post.slug}`,
+      url: `${DATA.url}/journal/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -51,7 +51,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function Blog({
+export default async function Journal({
   params,
 }: {
   params: {
@@ -65,7 +65,7 @@ export default async function Blog({
   }
 
   return (
-    <section id="blog">
+    <section id="journal">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -80,7 +80,7 @@ export default async function Blog({
             image: post.metadata.image
               ? `${DATA.url}${post.metadata.image}`
               : `${DATA.url}/og?title=${post.metadata.title}`,
-            url: `${DATA.url}/blog/${post.slug}`,
+            url: `${DATA.url}/journal/${post.slug}`,
             author: {
               "@type": "Person",
               name: DATA.name,

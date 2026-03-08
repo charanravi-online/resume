@@ -30,7 +30,7 @@ I'd love to hear your thoughts - *contact@charanravi.com* `,
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/journal", icon: NotebookIcon, label: "Journal" },
   ],
   contact: {
     email: "contact@charanravi.com",
@@ -50,20 +50,20 @@ I'd love to hear your thoughts - *contact@charanravi.com* `,
 
       //   navbar: true,
       // },
-      // X: {
-      //   name: "X",
-      //   url: "https://x.com/charanjson",
-      //   icon: Icons.x,
+      Instagram: {
+        name: "Instagram",
+        url: "https://instagram.com/charan.json",
+        icon: Icons.instagram,
 
-      //   navbar: true,
-      // },
-      Youtube: {
-        name: "Youtube",
+        navbar: true,
+      },
+      YouTube: {
+        name: "YouTube",
         url: "https://www.youtube.com/@charanpov",
         icon: Icons.youtube,
         navbar: true,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "mailto:contact@charanravi.com",
         icon: Icons.email,
