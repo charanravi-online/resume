@@ -12,7 +12,9 @@ export const DATA = {
   summary:
     `I talk about stuff and call it a documentary. My videos dive into unexpected corners of everyday life, exploring ideas from technology and philosophy to creativity and culture.
 
-Each episode is a mini-documentary where I share my thoughts, experiments, and the stories of people I meet along the way. The channel is a place for curiosity, long-form conversations, and occasional absurdity — basically, a space where I can learn out loud and bring others along for the ride.`,
+Each episode is a mini-documentary where I share my thoughts, experiments, and the stories of people I meet along the way. The channel is a place for curiosity, long-form conversations, and occasional absurdity — basically, a space where I can learn out loud and bring others along for the ride.
+
+I'd love to hear your thoughts - *contact@charanravi.com* `,
   avatarUrl: "https://charanravi-online.github.io/youtube/profile.png",
   skills: [
     "Philosphy",
