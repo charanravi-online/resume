@@ -15,7 +15,7 @@ export const DATA = {
 Each episode is a mini-documentary where I share my thoughts, experiments, and the stories of people I meet along the way. The channel is a place for curiosity, long-form conversations, and occasional absurdity — basically, a space where I can learn out loud and bring others along for the ride.
 
 I'd love to hear your thoughts - *contact@charanravi.com* `,
-  avatarUrl: "https://charanravi-online.github.io/youtube/profile.png",
+  avatarUrl: "https://charanravi-online.github.io/human/profile.png",
   skills: [
     "Philosphy",
     ""
