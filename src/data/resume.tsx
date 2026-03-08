@@ -50,13 +50,13 @@ I'd love to hear your thoughts - *contact@charanravi.com* `,
 
       //   navbar: true,
       // },
-      Instagram: {
-        name: "Instagram",
-        url: "https://instagram.com/charan.json",
-        icon: Icons.instagram,
+      // Instagram: {
+      //   name: "Instagram",
+      //   url: "https://instagram.com/charan.json",
+      //   icon: Icons.instagram,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
       YouTube: {
         name: "YouTube",
         url: "https://www.youtube.com/@charanpov",
